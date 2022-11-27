@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		347522B42933945700A63C1C /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347522B32933945700A63C1C /* File.swift */; };
+		347522B62933949F00A63C1C /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347522B52933949F00A63C1C /* RegisterView.swift */; };
 		DA8C539A293378B700FA32EA /* ToDoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8C5399293378B700FA32EA /* ToDoListApp.swift */; };
 		DA8C539C293378B700FA32EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8C539B293378B700FA32EA /* ContentView.swift */; };
 		DA8C539E293378B900FA32EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA8C539D293378B900FA32EA /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		347522B32933945700A63C1C /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		347522B52933949F00A63C1C /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		DA8C5396293378B700FA32EA /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA8C5399293378B700FA32EA /* ToDoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListApp.swift; sourceTree = "<group>"; };
 		DA8C539B293378B700FA32EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 			children = (
 				DA8C5399293378B700FA32EA /* ToDoListApp.swift */,
 				DA8C539B293378B700FA32EA /* ContentView.swift */,
+				347522B52933949F00A63C1C /* RegisterView.swift */,
+				347522B32933945700A63C1C /* File.swift */,
 				DA8C539D293378B900FA32EA /* Assets.xcassets */,
 				DA8C539F293378B900FA32EA /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA8C539C293378B700FA32EA /* ContentView.swift in Sources */,
+				347522B62933949F00A63C1C /* RegisterView.swift in Sources */,
+				347522B42933945700A63C1C /* File.swift in Sources */,
 				DA8C539A293378B700FA32EA /* ToDoListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
